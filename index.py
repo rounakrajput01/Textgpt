@@ -4,7 +4,7 @@ import google.generativeai as genai
 import threading
 
 # Set your Gemini API key
-API_KEY = "AIzaSyD5OYBftfTzVrZLOUwKnOkNpFhKIdFG1cI"
+API_KEY = "your_api_key"
 genai.configure(api_key=API_KEY)
 
 def generate_text():
